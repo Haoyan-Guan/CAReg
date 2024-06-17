@@ -372,7 +372,7 @@ class SparseRandomProjection:
         """Random sparse matrix. Based on https://web.stanford.edu/~hastie/Papers/Ping/KDD06_rp.pdf.
 
         Args:
-            n_features (int): Dimentionality of the original source space
+            n_features (int): Dimensionality of the original source space
 
         Returns:
             Tensor: Sparse matrix of shape (n_components, n_features).
